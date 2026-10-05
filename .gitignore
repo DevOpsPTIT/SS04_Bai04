@@ -1,0 +1,21 @@
+# ==========================================
+# GitIgnore Rules for DevOps Practice Project
+# ==========================================
+
+# Sensitive credentials & environment files
+credentials.txt
+*.env
+*.pem
+*.key
+
+# Build output & dependencies
+node_modules/
+dist/
+build/
+
+# System & IDE temporary files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
